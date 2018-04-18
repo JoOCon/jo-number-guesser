@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1><b>Number</b> Guesser</h1>
+  </header>
+  <main>
+    <input class="user" type="text" name="user" placeholder="Please Enter Your Guess">
+    <button class="guess" disabled>Guess</button>
+    <button class="clear" disabled>Clear</button>
+    <h2>Your last guess was</h2>
+    <h3 class="last-guess">#</h3>
+    <p class="answer-results"></p>
+    <button class="reset" disabled>Reset</button>
+  </main>
+  <footer>
+    <h1 class="bottom-h1">Challenge Mode! Make The Guessing Range Wider!</h1>
+     <input class="minimum-guess" type="number" name="minimum-guess" placeholder="Min Guess">
+    <input class="maximum-guess" type="number" name="user" placeholder="Max Guess">
+    <button class="change-range">Change Range</button>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
