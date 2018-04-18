@@ -1,1 +1,1 @@
-# static-comp-3
+# Number Guesser
